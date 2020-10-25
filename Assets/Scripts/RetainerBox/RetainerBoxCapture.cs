@@ -9,7 +9,7 @@ public class RetainerBoxCapture : MonoBehaviour
   [HideInInspector]
   public RenderTexture rt;
 
-  // assumes canvases all have a consistent reference resolution that is 16:9.
+  // assumes canvases all have a consistent reference resolution that is 1920 x 1080.
   // Additional aspect ratios beyond 16:9, 16:10, 3:2, and 21:9 will need to be added here
   public static Vector2Int TargetRes;
   public Vector2Int GetCanvasTargetRes()
